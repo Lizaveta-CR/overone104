@@ -16,7 +16,7 @@ public class HW_1 {
         int size = scanner.nextInt();
         if (size < 0) {
             System.out.println("Error. Try again!");
-            initSize(scanner);
+            size = initSize(scanner);
         }
         return size;
     }
