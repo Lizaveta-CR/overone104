@@ -3,7 +3,7 @@ package overone104.com.lessons.les_12.classwork.methods;
 public class Methods_7 {
     public static void main(String[] args) {
         System.out.println(sum(2, 3));
-        System.out.println(sum(4.5, 3.2));
+//        System.out.println(sum(4.5, 3.2));
         System.out.println(sum(4, 3, 7));
     }
 

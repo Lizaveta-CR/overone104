@@ -2,11 +2,7 @@ package overone104.com.lessons.les_12.classwork.methods;
 
 public class Methods_6 {
     public static void main(String args[]) {
-        daytime(7);
-        daytime(13);
-        daytime(32);
-        daytime(56);
-        daytime(2);
+        daytime(-7);
     }
 
     static void daytime(int hour) {

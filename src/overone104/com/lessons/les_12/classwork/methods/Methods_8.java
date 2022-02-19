@@ -25,9 +25,11 @@ public class Methods_8 {
         System.out.println("log10 of x is: " + Math.log10(x));
         System.out.println("log10 of y is: " + Math.log10(y));
 
-        Methods_3.sum(9, 9, 9);
+        Methods_3 example = new Methods_3();
+        example.sum(1, 2, 3, 4);
+
         Methods_6.daytime(8);
-        
+
         //if method is not static, then create object using 'new':
         Scanner scanner = new Scanner(System.in);
         int i = scanner.nextInt();
