@@ -10,6 +10,12 @@ public class Rectangle extends Figure {
         this.height = height;
     }
 
+    Rectangle(float width, float height) {
+        super();
+        this.width = width;
+        this.height = height;
+    }
+
     public float getPerimeter() {
         return width * 2 + height * 2;
     }

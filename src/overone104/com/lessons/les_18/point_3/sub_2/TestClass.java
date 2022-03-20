@@ -1,7 +1,12 @@
 package overone104.com.lessons.les_18.point_3.sub_2;
 
 public class TestClass implements In1 {
-    int num = 10000;
+    private int num = 10000;
+
+//    @Override
+//    public void defaultDisplay() {
+//        System.out.println("Hello from + " + getClass());
+//    }
 
     public static void main(String[] args) {
         TestClass t = new TestClass();

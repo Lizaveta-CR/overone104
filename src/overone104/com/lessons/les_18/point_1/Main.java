@@ -8,8 +8,8 @@ public class Main {
 //hashCode() - позволяет задать некоторое числовое значение, которое будет соответствовать
 // данному объекту или его хэш-код. По данному числу, например, можно сравнивать объекты.
         System.out.println(tom.hashCode());
-        //getClass() - озволяет получить тип данного объекта
-        System.out.println(tom.getClass());
+        //getClass() - позволяет получить тип данного объекта
+        System.out.println(tom.getClass().getName());
         //equals() - сравнивает два объекта на равенство
         Person bob = new Person("Bob");
         System.out.println(tom.equals(bob));

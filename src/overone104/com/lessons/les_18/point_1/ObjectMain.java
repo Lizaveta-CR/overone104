@@ -6,6 +6,7 @@ public class ObjectMain {
         // Такое преобразование осуществляется автоматически.
         Object tom = new Person("Tom");
         Object sam = new Employee("Sam", "Oracle");
+//        sam.display
         Object kate = new Client("Kate", "DeutscheBank", 2000);
         Person bob = new Client("Bob", "DeutscheBank", 3000);
         Person alice = new Employee("Alice", "Google");

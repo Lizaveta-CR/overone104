@@ -6,6 +6,6 @@ public class InstanceOperator {
         boolean result = name instanceof String;// following will return true since name is type of String
         System.out.println(result);
         Vehicle vehicle = new Car();
-        System.out.println(vehicle instanceof Car);
+        System.out.println(vehicle instanceof Vehicle);
     }
 }
